@@ -10,8 +10,6 @@ function App() {
    <Header/>
         <Routes>
       <Route  path="/" element=<CarList /> />
-      <Route  path="/addCar" element=<AddCar /> />
-      <Route   path="/edit/:id" element=<AddCar /> />
    </Routes>
     </div>
   );
